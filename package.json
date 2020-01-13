@@ -99,5 +99,13 @@
       "json",
       "node"
     ]
-  }
+  },
+	"engines": {
+		"node": "12.14.1"
+	},
+	"now": {
+		"engines": {
+			"node": "12.14.1"
+		}
+	}
 }
