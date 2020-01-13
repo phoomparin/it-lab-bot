@@ -4,7 +4,7 @@ const serviceAccount = require('../../service-account.json')
 
 export const firebase = admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: 'https://ycc2020.firebaseio.com',
+  databaseURL: 'https://phoomparin.firebaseio.com',
 })
 
 export const firestore = firebase.firestore()
